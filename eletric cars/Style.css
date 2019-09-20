@@ -1,0 +1,80 @@
+/*html {overflow:visible;}*/
+body {
+	margin: 0;
+	background: #ffffff url("tovTart/kepek/cars.jpg") no-repeat fixed;
+	background-size:100vw;
+	background-position: 0 calc(100% - 0px);
+	/*font-family: "Gill Sans", sans-serif;*/
+}
+/*navigációs sáv*/
+nav {
+	box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.6);
+}
+/*kezdő szöveg*/
+header {
+	height: 100vh;
+	position: relative;
+}
+header div{
+	width: 30vw;
+	padding-top: 25vh;
+}
+header div h1{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: #fff solid 5px;
+	padding: 25px;
+	box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.6);
+}
+/*fő tartalom*/
+main{
+	background-color: #fff;
+	min-height: 100vh;
+}
+main div{
+	padding-top: 50px;
+}
+main div h1{
+	border-bottom: #828282 solid 2px;
+}
+main div .row .card{
+	margin: 25px;
+}
+/*alján leirás*/
+footer{
+	color: #fff;
+}
+footer div{
+	padding: 20px;
+}
+footer div a{
+	color: #000;
+	text-decoration: underline;
+}
+footer div a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+	body{background-position: 0 0;}
+	header div{padding-top: 28vh;}
+	header div h1{
+		border: #fff solid 3px;
+		padding: 15px;
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	body{background-position: 0 0;}
+	header {height: 50vh;}
+	header div{padding-top: 13vh;}
+	header div h1{
+		border: #fff solid 2px;
+		padding: 8px;
+		font-size: 15px;
+	}
+}

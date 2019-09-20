@@ -1,0 +1,31 @@
+/*html {overflow:visible;}*/
+body {margin: 0;}
+/*navigációs sáv*/
+nav {box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.6);}
+/*fő tartalom*/
+main{
+	background-color: #fff;
+	min-height: 100vh;
+}
+main .container{
+	padding-top: 100px;
+}
+/*main div h1{
+	border-bottom: #828282 solid 2px;
+}*/
+
+/*alján leirás*/
+footer{
+	color: #fff;
+}
+footer div{
+	padding: 20px;
+}
+footer div a{
+	color: #000;
+	text-decoration: underline;
+}
+footer div a:hover {
+	color: #fff;
+	text-decoration: none;
+}
